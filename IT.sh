@@ -57,7 +57,7 @@ fi
 
 if [ $pil = 2 ]
 then
-echo $i"chotto a minute kudasai..."
+echo $i"Openning..."
 sleep 1
 echo $pur"now open new session and run Next.sh"
 echo $ku"__________________________________"
