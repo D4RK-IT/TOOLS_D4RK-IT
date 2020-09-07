@@ -13,9 +13,13 @@ toilet -f future "WELCOME TO TOOLS BLACK-IT"
 toilet -f term "   /\_/\ " | lolcat
 toilet -f term " =[ •~• ]= " | lolcat
 toilet -f term "    [\]_" | lolcat
-toilet -f term "  |\    /| " | lolcat
-toilet -f term "  | \  / | " | lolcat
-toilet -f term "  |  \/  | " | lolcat
+toilet -f term "  _           _________/]]][[[\____________________|\_      " | lolcat                   " | lolcat
+toilet -f term " |  \        /=========================================\    " | lolcat
+toilet -f term " |   |=======/===.  ... ////////.                   [===>   " | lolcat
+toilet -f term " |   /=======\===================/===|=================/    " | lolcat
+toilet -f term " |  /         |  |\_/----------|•••••|                      " | lolcat
+toilet -f term " |_/          |  |             \_____/
+toilet -f term "            _\|__|/_
 echo $i "BLACK-IT"
 echo $i "TOOLS-PHISING"
 echo $pur"____________________________________"
