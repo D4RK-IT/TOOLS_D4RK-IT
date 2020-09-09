@@ -27,8 +27,8 @@ echo $cy"_______________________________________________________________________
 sleep 1
 echo
 echo $i"BY MR.J TOOLS BLACK-IT"
-echo $i"[" $ku"?" $pur"]" $ku"TERMUX_INDONESIA"
-echo $i"[" $ku"?" $pur"]" $ku"HACKING TOOLS BLACK-IT"
+echo $i"[" $ku"?" $i"]" $ku"TERMUX_INDONESIA"
+echo $i"[" $ku"?" $i"]" $ku"HACKING TOOLS BLACK-IT"
 echo $cy"___________________________________________________________________________"
 echo $pur"["$ku"1"$pur"]"$ku"[+]INSTALL BAHAN-BAHAN (WAJIB)"
 echo $pur"["$ku"2"$pur"]"$ku"[+]PHISING FACEBOOK SECURITY"
@@ -39,7 +39,7 @@ echo $pur"["$ku"6"$pur"]"$ku"[+]UPDATE"
 echo $pur"["$ku"7"$pur"]"$ku"[+]CEK HASIL PHISHING"
 echo $pur"["$ku"8"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
-echo $ku"╭─["$pur"BLACK-IT@Root"$pur"]"
+echo $ku"╭─["$i"BLACK-IT@Root"$ku"]"
 read -p"╰─>> " pil
 
 if [ $pil = 1 ]
