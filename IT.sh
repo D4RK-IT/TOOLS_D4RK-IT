@@ -116,9 +116,9 @@ fi
 
 if [ $pil = 8 ]
 then
-git clone https://github.com/zlucifer/lucita_ddos
-cd lucita_ddos
-python pukul.py
+git clone https://github.com/4NK3R-PRODUCT1ON/FULLDDOS
+cd FULLDDOS
+sh fullddos.sh
 fi
 
 if [ $pil = 0 ]
