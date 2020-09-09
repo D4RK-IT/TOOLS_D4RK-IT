@@ -37,7 +37,8 @@ echo $pur"["$ku"4"$pur"]"$ku"[+]PHISING FREEFIRE"
 echo $pur"["$ku"5"$pur"]"$ku"[+]PHISING MOBILE LEGENDS"
 echo $pur"["$ku"6"$pur"]"$ku"[+]INSTALL METASPLOIT"
 echo $pur"["$ku"7"$pur"]"$ku"[+]CEK HASIL PHISHING"
-echo $pur"["$ku"8"$pur"]"$ku"[+]EXIT"
+echo $pur"["$ku"8"$pur"]"$ku"[+]DDOS ATTACK"
+echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
 echo $ku"╭─["$i"BLACK-IT@Root"$ku"]"
 read -p"╰─>> " pil
@@ -115,7 +116,13 @@ fi
 
 if [ $pil = 8 ]
 then
-echo
+git clone https://github.com/zlucifer/lucita_ddos
+cd lucita_ddos
+python pukul.py
+
+if [ $pil = 0 ]
+then
+echo 
 echo
 echo $pur "TERIMAKASIH SUDAH MEMAKAI TOOLS BLACK-IT"
 sleep 2
