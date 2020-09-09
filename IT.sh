@@ -119,6 +119,7 @@ then
 git clone https://github.com/zlucifer/lucita_ddos
 cd lucita_ddos
 python pukul.py
+fi
 
 if [ $pil = 0 ]
 then
