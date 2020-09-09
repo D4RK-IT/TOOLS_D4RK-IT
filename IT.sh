@@ -38,6 +38,7 @@ echo $pur"["$ku"5"$pur"]"$ku"[+]PHISING MOBILE LEGENDS"
 echo $pur"["$ku"6"$pur"]"$ku"[+]INSTALL METASPLOIT"
 echo $pur"["$ku"7"$pur"]"$ku"[+]CEK HASIL PHISHING"
 echo $pur"["$ku"8"$pur"]"$ku"[+]DDOS ATTACK"
+echo $pur"["$ku"9"$pur"]"$ku"[+]MENCARI KELEMAHAN WEBSITE"
 echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
 echo $ku"╭─["$i"BLACK-IT@Root"$ku"]"
@@ -121,14 +122,21 @@ cd FULLDDOS
 sh fullddos.sh
 fi
 
+if [ $pil = 9 ]
+then
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+chmod 777 rhawk.php
+php rhawk.php
+fi
+
 if [ $pil = 0 ]
 then
-echo 
-echo
-echo $pur "TERIMAKASIH SUDAH MEMAKAI TOOLS BLACK-IT"
-sleep 2
-echo $ku "SEE YOU BYE"
-echo
+sleep 1
+echo $cy"============================================="
+echo $ku"[+]TERIMAKASIH SUDAH MEMAKAI TOOLS BLACK-IT"
+echo $ku"[+]SEE YOU BYE"
+echo $cy"============================================="
 sleep 1
 exit
 fi
