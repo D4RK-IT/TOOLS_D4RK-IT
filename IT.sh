@@ -165,12 +165,12 @@ fi
 
 if [ $pil = 12 ]
 then
-Openning...
-echo $ku"============="
+echo $i"Openning..."
+echo $ku"======================="
 echo $cy"ID = Termux"
 echo $cy"PW = ID"
-echo $ku"============="
-sleep 3
+echo $ku"======================="
+sleep 1
 git clone https://github.com/storiku/virus
 cd virus
 python2 vbug.py
