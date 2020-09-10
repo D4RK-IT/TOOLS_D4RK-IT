@@ -39,6 +39,9 @@ echo $pur"["$ku"6"$pur"]"$ku"[+]INSTALL METASPLOIT"
 echo $pur"["$ku"7"$pur"]"$ku"[+]CEK HASIL PHISHING"
 echo $pur"["$ku"8"$pur"]"$ku"[+]DDOS ATTACK"
 echo $pur"["$ku"9"$pur"]"$ku"[+]MENCARI KELEMAHAN WEBSITE"
+echo $pur"["$ku"10"$pur"]"$ku"[+]MEMBUKA INFORMASI FACEBOOK"
+echo $pur"["$ku"11"$pur"]"$ku"[+]KIRIM SMS GRATIS TANPA PULSA"
+echo $pur"["$ku"12"$pur"]"$ku"[+]MEMBUAT VIRUS (MALWARE)"
 echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
 echo $ku"╭─["$i"D4RK-IT@Root"$ku"]"
@@ -141,6 +144,32 @@ cd RED_HAWK
 chmod 777 rhawk.php
 php rhawk.php
 fi
+
+if [ $pil = 10 ]
+then
+sleep 1
+git clone https://github.com/CiKu370/OSIF.git
+cd OSIF
+chmod 777 osif.py
+python2 osif.py
+fi
+
+if [ $pil = 11 ]
+then
+sleep 1
+git clone https://github.com/amsitlab/smsid-java
+cd smsid
+./install
+smsid
+fi
+
+if [ $pil = 12 ]
+then
+sleep 1
+git clone https://github.com/Junior60/vbug
+cd vbug
+chmod 777 vbug.py
+python2 vbug.py
 
 if [ $pil = 0 ]
 then
