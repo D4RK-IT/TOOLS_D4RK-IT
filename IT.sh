@@ -170,6 +170,7 @@ git clone https://github.com/Junior60/vbug
 cd vbug
 chmod 777 vbug.py
 python2 vbug.py
+fi
 
 if [ $pil = 0 ]
 then
