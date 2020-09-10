@@ -65,6 +65,8 @@ pip install requests
 pip2 install requests
 pip install mechanize
 pip2 install mechanize
+pkg install nodejs
+npm install -g bash-obfuscate
 echo $ku"============================="
 echo $cy"SEMUA BAHAN SUDAH DI INSTALL"
 echo $ku"============================="
