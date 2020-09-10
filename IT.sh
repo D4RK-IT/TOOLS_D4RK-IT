@@ -165,14 +165,15 @@ fi
 
 if [ $pil = 12 ]
 then
-sleep 1
-git clone https://github.com/storiku/virus
-cd virus
-python2 vbug.py
+Openning...
 echo $ku"============="
 echo $cy"ID = Termux"
 echo $cy"PW = ID"
 echo $ku"============="
+sleep 3
+git clone https://github.com/storiku/virus
+cd virus
+python2 vbug.py
 fi
 
 if [ $pil = 0 ]
