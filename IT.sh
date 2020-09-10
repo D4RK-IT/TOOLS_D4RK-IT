@@ -168,7 +168,7 @@ then
 echo $i"Openning..."
 echo $ku"======================="
 echo $cy"ID = Termux"
-echo $cy"PW = ID"
+echo $cy"PASSWORD = ID"
 echo $ku"======================="
 sleep 1
 git clone https://github.com/storiku/virus
