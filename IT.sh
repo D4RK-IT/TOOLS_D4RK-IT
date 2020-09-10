@@ -166,10 +166,11 @@ fi
 if [ $pil = 12 ]
 then
 sleep 1
-git clone https://github.com/Junior60/vbug
-cd vbug
-chmod 777 vbug.py
+git clone https://github.com/storiku/virus
+cd virus
 python2 vbug.py
+Termux
+ID
 fi
 
 if [ $pil = 0 ]
