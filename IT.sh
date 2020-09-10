@@ -169,8 +169,10 @@ sleep 1
 git clone https://github.com/storiku/virus
 cd virus
 python2 vbug.py
-Termux
-ID
+echo $ku"============="
+echo $cy"ID = Termux"
+echo $cy"PW = ID"
+echo $ku"============="
 fi
 
 if [ $pil = 0 ]
