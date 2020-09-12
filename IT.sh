@@ -42,6 +42,7 @@ echo $pur"["$ku"9"$pur"]"$ku"[+]MENCARI KELEMAHAN WEBSITE"
 echo $pur"["$ku"10"$pur"]"$ku"[+]MEMBUKA INFORMASI FACEBOOK"
 echo $pur"["$ku"11"$pur"]"$ku"[+]KIRIM SMS GRATIS TANPA PULSA"
 echo $pur"["$ku"12"$pur"]"$ku"[+]MEMBUAT VIRUS (MALWARE)"
+echo $pur"["$ku"13"$pur"]"$ku"[+]INSTALL LINUX UBUNTU"
 echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
 echo $ku"╭─["$i"D4RK-IT@Root"$ku"]"
@@ -174,6 +175,14 @@ sleep 1
 git clone https://github.com/storiku/virus
 cd virus
 python2 vbug.py
+fi
+
+if [ $pil = 13 ]
+then
+echo $i"Openning..."
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+chmod +x ./start-kali.sh
+./start-kali.sh
 fi
 
 if [ $pil = 0 ]
