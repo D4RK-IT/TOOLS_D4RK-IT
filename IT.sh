@@ -203,7 +203,7 @@ fi
 if [ $pil = 15 ]
 then
 echo $i"Openning..."
-git clone https://king-hacking/King-Hacking
+git clone https://github.com/king-hacking/King-Hacking
 cd King-Hacking
 bash King-Tools.sh
 fi
