@@ -45,6 +45,7 @@ echo $pur"["$ku"12"$pur"]"$ku"[+]MEMBUAT VIRUS (MALWARE)"
 echo $pur"["$ku"13"$pur"]"$ku"[+]INSTALL KALI LINUX"
 echo $pur"["$ku"14"$pur"]"$ku"[+]INSTALL NETHUNTER KALI LINUX"
 echo $pur"["$ku"15"$pur"]"$ku"[+]TOOLS HACKING V1"
+echo $pur"["$ku"16"$pur"]"$ku"[+]INSTALL SQLMAP"
 echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
 echo $ku"╭─["$i"D4RK-IT@Root"$ku"]"
@@ -202,9 +203,18 @@ fi
 if [ $pil = 15 ]
 then
 echo $i"Openning..."
-git clone https://github.com/king-hacking/King-Hacking
+git clone https://king-hacking/King-Hacking
 cd King-Hacking
-bash King-Tools.sh
+bash king-tools.sh
+fi
+
+if [ $pil = 16 ]
+then
+echo $i"Openning..."
+git clone https://github.com/sqlmapproject/sqlmap
+cd sqlmap
+chmod +x *
+python2 sqlmap.py
 fi
 
 if [ $pil = 0 ]
