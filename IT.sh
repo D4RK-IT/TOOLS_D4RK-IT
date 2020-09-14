@@ -62,7 +62,7 @@ apt install openssh
 apt install autossh
 pkg install php
 pkg install python
-pkg install PHP
+pkg install openssl
 pkg install git
 pkg install nano
 pip install requests
@@ -70,7 +70,6 @@ pip2 install requests
 pip install mechanize
 pip2 install mechanize
 pkg install nodejs
-npm install -g bash-obfuscate
 echo $ku"============================="
 echo $cy"SEMUA BAHAN SUDAH DI INSTALL"
 echo $ku"============================="
