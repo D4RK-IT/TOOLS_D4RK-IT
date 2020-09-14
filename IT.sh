@@ -204,7 +204,7 @@ then
 echo $i"Openning..."
 git clone https://github.com/king-hacking/King-Hacking
 cd King-Hacking
-bash Hacking-Tools.sh
+bash King-Tools.sh
 fi
 
 if [ $pil = 0 ]
