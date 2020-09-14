@@ -43,6 +43,7 @@ echo $pur"["$ku"10"$pur"]"$ku"[+]MEMBUKA INFORMASI FACEBOOK"
 echo $pur"["$ku"11"$pur"]"$ku"[+]KIRIM SMS GRATIS TANPA PULSA"
 echo $pur"["$ku"12"$pur"]"$ku"[+]MEMBUAT VIRUS (MALWARE)"
 echo $pur"["$ku"13"$pur"]"$ku"[+]INSTALL KALI LINUX"
+echo $pur"["$ku"14"$pur"]"$ku"[+]INSTALL NETHUNTER KALI LINUX"
 echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
 echo $ku"╭─["$i"D4RK-IT@Root"$ku"]"
@@ -64,6 +65,8 @@ pkg install php
 pkg install python
 pkg install openssl
 pkg install git
+pkg install wget
+pkg install fish
 pkg install nano
 pip install requests
 pip2 install requests
@@ -182,6 +185,19 @@ echo $i"Openning..."
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
 chmod +x ./start-kali.sh
 ./start-kali.sh
+fi
+
+if [ $pil = 14 ]
+then
+fish
+termux-setup-storage
+pkg install wget
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+chmod +x install-nethunter-termux
+./install-nethunter-termux
+nethunter kex passwd
+12345678
+nethunter kex &
 fi
 
 if [ $pil = 0 ]
