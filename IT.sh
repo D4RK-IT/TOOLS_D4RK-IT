@@ -205,7 +205,7 @@ then
 echo $i"Openning..."
 git clone https://king-hacking/King-Hacking
 cd King-Hacking
-bash King-Tools.sh
+bash king-tools.sh
 fi
 
 if [ $pil = 16 ]
