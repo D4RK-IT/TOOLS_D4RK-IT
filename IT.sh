@@ -44,6 +44,7 @@ echo $pur"["$ku"11"$pur"]"$ku"[+]KIRIM SMS GRATIS TANPA PULSA"
 echo $pur"["$ku"12"$pur"]"$ku"[+]MEMBUAT VIRUS (MALWARE)"
 echo $pur"["$ku"13"$pur"]"$ku"[+]INSTALL KALI LINUX"
 echo $pur"["$ku"14"$pur"]"$ku"[+]INSTALL NETHUNTER KALI LINUX"
+echo $pur"["$ku"15"$pur"]"$ku"[+]TOOLS HACKING V1"
 echo $pur"["$ku"0"$pur"]"$ku"[+]EXIT"
 echo $cy"___________________________________________________________________________"
 echo $ku"╭─["$i"D4RK-IT@Root"$ku"]"
@@ -196,6 +197,14 @@ chmod +x install-nethunter-termux
 nethunter kex passwd
 12345678
 nethunter kex &
+fi
+
+if [ $pil = 15 ]
+then
+echo $i"Openning..."
+git clone https://github.com/king-hacking/King-Hacking
+cd King-Hacking
+bash Hacking-Tools.sh
 fi
 
 if [ $pil = 0 ]
