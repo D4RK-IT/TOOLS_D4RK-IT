@@ -55,6 +55,8 @@ if [ $pil = 1 ]
 then
 echo $i"Openning... "
 sleep 1
+clear
+sleep 1
 echo $ku"---------------------------------------------------------------------------"
 echo $cy"TERMUX INDONESIA D4RK-IT Mr.J"
 echo $ku"---------------------------------------------------------------------------"
@@ -144,7 +146,7 @@ echo $i"[+]INSTALL METASPLOIT SEDANG DI PROSES"
 echo $i"[+]MOHON SISAKAN PENYIMPANAN INTERNAL (500 MB)"
 echo $i"[+]TUNGGU SAMPAI 30 MENIT UNTUK PENGINSTALLAN"
 echo $ku"---------------------------------------------------------------------------"
-sleep 1
+sleep 5
 clear
 echo $cy"+++++++++++++++[LOADING PAKET METASPLOIT...]+++++++++++++++"
 Sleep 5
