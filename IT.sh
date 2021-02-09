@@ -124,10 +124,9 @@ fi
 
 if [ $pil = 6 ]
 then
-git clone https://github.com/4L13199/meTAInstall
-cd meTAInstall
-chmod 777 meTAInstall
-sh meTAInstall
+curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+chmod 777 metasploit.sh
+. /metasploit.sh
 fi
 
 if [ $pil = 7 ]
