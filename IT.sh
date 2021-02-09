@@ -148,8 +148,8 @@ echo $i"[+]INSTALL METASPLOIT SEDANG DI PROSES"
 echo $i"[+]MOHON SISAKAN PENYIMPANAN INTERNAL (500 MB)"
 echo $i"[+]TUNGGU SAMPAI 30 MENIT UNTUK PENGINSTALLAN"
 echo $ku"---------------------------------------------------------------------------"
-echo $cy"+++++++++++++++[LOADING PAKET METASPLOIT...]+++++++++++++++"
-Sleep 10
+echo $cy"+++++++++++++++[LOADING PAKET METASPLOIT]+++++++++++++++"
+sleep 10
 curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
 chmod 777 metasploit.sh
 ./metasploit.sh
