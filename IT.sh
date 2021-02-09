@@ -225,4 +225,5 @@ echo $ku"[+]SEE YOU BYE"
 echo $cy"============================================="
 sleep 1
 exit
+cd
 fi
